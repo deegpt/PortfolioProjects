@@ -14,6 +14,8 @@ Below are the categorised projects lists on basis of the skills or tools used.
 2. [COVID deaths and Vaccination](https://github.com/deegpt/PortfolioProjects/blob/main/SQLPortfolioProject1.sql)
 3. [Indian Census 2011](https://github.com/deegpt/PortfolioProjects/blob/main/IndianCensusSQLProject.sql)
 4. [COVID Deaths and Vaccinations](https://github.com/deegpt/PortfolioProjects/blob/c285d43a835e728389c7c5b21d757d9051af992e/Covid%20Dashboard%20on%20Tableau%20(SQL%20Queries))
+5. [ZomatoSpendAnalysis](https://github.com/deegpt/PortfolioProjects/blob/main/ZomatoSpend%20Analysis.sql)
+6. [FassosOrdersAnalysis](https://github.com/deegpt/PortfolioProjects/blob/main/FassosOrdersAnalysis.sql)
 
 ## Tableau (Data Visualization) - 
 1. [COVID deaths and vaccination](https://public.tableau.com/app/profile/deepak1415/viz/COVIDTableauDashboard_16596578146670/Dashboard1?publish=yes)
