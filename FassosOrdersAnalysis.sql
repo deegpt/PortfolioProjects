@@ -28,7 +28,7 @@ select order_id from
 (select *, case when cancellation in ('Cancellation', 'Customer Cancellation') 
 		  then 'Cancelled' else 'Not Canceled' end as Order_cancel_details
 from Project4..driver_order)a
-where Order_cancel_details = 'Not Canceled'   -- this will order Ids of successfuly delivered orders
+where Order_cancel_details = 'Not Canceled'           -- this will order Ids of successfuly delivered orders
 
 
 select roll_id, count(roll_id) RollsCount from Project4..customer_orders where order_id IN
@@ -37,7 +37,7 @@ select roll_id, count(roll_id) RollsCount from Project4..customer_orders where o
 		  then 'Cancelled' else 'Not Canceled' end as Order_cancel_details
 from Project4..driver_order)a
 where Order_cancel_details = 'Not Canceled') 
-group by roll_id						-- this will give the number of successfully delivered rolls
+group by roll_id					-- this will give the number of successfully delivered rolls
 
 --------------------------------------------------------------------------------------------------------------------------------------
 -- 5. How many Veg and Non-Veg rolls were ordered by each customer?
@@ -55,9 +55,9 @@ select order_id from
 		  then 'Cancelled' else 'Not Canceled' end as Order_cancel_details
 from Project4..driver_order)a
 where Order_cancel_details = 'Not Canceled'))b
-group  by  order_id									 -- this gives the total number of rolls delivered in an order
+group  by  order_id				     -- this gives the total number of rolls delivered in an order
 
--- For finding the maximum no. of rolls in an order, we use Rank function
+-- 7. For finding the maximum no. of rolls in an order, we use Rank function
 select * from
 (select *, RANK() over(order by RollsOrdered desc) rnk from
 (select order_id, count(roll_id)RollsOrdered from
@@ -67,6 +67,6 @@ select order_id from
 		  then 'Cancelled' else 'Not Canceled' end as Order_cancel_details
 from Project4..driver_order)a
 where Order_cancel_details = 'Not Canceled'))b
-group  by  order_id)c)d where rnk=1                         -- this will give the max number of rolls ordered in a single order
+group  by  order_id)c)d where rnk=1                   -- this will give the max number of rolls ordered in a single order
 
 ------------------------------------------------------------------------------------------------------------------------------------------
