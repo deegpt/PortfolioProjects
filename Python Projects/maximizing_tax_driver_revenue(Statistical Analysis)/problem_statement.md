@@ -49,6 +49,6 @@ For this analysis, we utilized the comprehensive dataset of NYC Taxi Trip record
 ---
 
 ### Recommendations
-> Encourage customers to pay with credit cards to capitalize on the potential for generating more revenue for taxi drivers.
-> Implementing strategies such as offering incentives or discounts for credit card transactions to incentivize customers to choose this payment method.
-> Provide seamless and secure credit card payment options to enhance customer convenience and encourage adoption of this payment method. 
+- Encourage customers to pay with credit cards to capitalize on the potential for generating more revenue for taxi drivers.
+- Implementing strategies such as offering incentives or discounts for credit card transactions to incentivize customers to choose this payment method.
+- Provide seamless and secure credit card payment options to enhance customer convenience and encourage adoption of this payment method. 
