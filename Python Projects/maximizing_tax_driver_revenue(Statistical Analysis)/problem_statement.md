@@ -30,3 +30,12 @@ For this analysis, we utilized the comprehensive dataset of NYC Taxi Trip record
 - fare_amount
 - trip_distance (miles)
 - duration (minutes)
+
+---
+
+### Methodology
+| Step | Description |
+| :--- | :--- |
+| Descriptive Analysis | Performed statistical analysis to summarize key aspects of the data, focusing on fare amounts and fare types |
+| Hypothesis Testing | Conducted a T-test to evaluate the relationship between payment type and fare amount, testing the hypothesis that different payment methods influence fare amounts |
+| Regression Analysis | Implemented linear regression to explore the relationship between trip duration (calculated from pickup and dropoff times) and fare amount |
