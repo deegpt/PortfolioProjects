@@ -39,3 +39,16 @@ For this analysis, we utilized the comprehensive dataset of NYC Taxi Trip record
 | Descriptive Analysis | Performed statistical analysis to summarize key aspects of the data, focusing on fare amounts and fare types |
 | Hypothesis Testing | Conducted a T-test to evaluate the relationship between payment type and fare amount, testing the hypothesis that different payment methods influence fare amounts |
 | Regression Analysis | Implemented linear regression to explore the relationship between trip duration (calculated from pickup and dropoff times) and fare amount |
+
+---
+
+### Journey Insights
+- Customers paying with cards tend to have a slightly higher average trip distance and fare amount compared to those paying with cash.
+- Indicates that customers prefers to pay more with cards when they have high fare amount and long trip distance.
+
+---
+
+### Recommendations
+> Encourage customers to pay with credit cards to capitalize on the potential for generating more revenue for taxi drivers.
+> Implementing strategies such as offering incentives or discounts for credit card transactions to incentivize customers to choose this payment method.
+> Provide seamless and secure credit card payment options to enhance customer convenience and encourage adoption of this payment method. 
